@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        h1 {
+            font-size: 96px;
+        }
+
+        .bordado {
+            border: 3px solid red;
+            min-height: 100px;
+            max-width: 300px;
+        }
+
+        #nome {
+            border: 5px double blue;
+
+        }
+    </style>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rá</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+
+<body>
+    <h1 id="nome">Hello</h1>
+    <p style="color:blue">world!</p>
+    <form class="bordado" method="POST" action="addcontato">
+        <label>
+            Nome
+            <input name="nomecontato" required/>
+        </label>
+        <br/>
+        <label>
+            Telefone
+            <input name="telefonecontato" required/>
+        </label>
+        <br/>
+        <input type="submit" />
+    </form>
+</body>
+
+</html>
